@@ -1,0 +1,28 @@
+.category {
+  flex-wrap: wrap;
+  margin-top: 50px !important;
+}
+.category .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category .card-price {
+  color: green;
+  font-weight: bold;
+}
+
+.category .card-text {
+  color: rgb(90, 89, 89);
+}
+.category .card-img-top {
+  height: 300px !important;
+}
+
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
